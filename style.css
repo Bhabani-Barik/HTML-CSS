@@ -3,6 +3,7 @@
 :root{
     --primery-color:#7e22ce;
     --dark-gray:#6b7280;
+    --off-white:#f4f4f5;
 }
 
 body{
@@ -97,4 +98,15 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primery-color);
+}
+
+/** Section **/
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+.ow {
+    background-color: var(--off-white);
 }
